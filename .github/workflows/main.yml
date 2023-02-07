@@ -15,6 +15,7 @@ jobs:
       - name: Set up Python 3.9
         uses: actions/setup-python@v2
         with:
+          # update更新下，防止不推送
           # python-version: 3.9.1
           python-version: v3.9.12
       - name: install pip packages
